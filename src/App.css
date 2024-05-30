@@ -49,6 +49,10 @@ label {
   font-size: 14px;
 }
 
+.error{
+  color: tomato;
+  font-size: 12px;
+}
 .primary-btn {
   width: 100%;
   padding: 10px;
@@ -65,6 +69,9 @@ label {
 .primary-btn:hover {
   background-color: #0070e5;
 }
+.primary-btn:disabled {
+  background-color: #858585;
+}
 .breaker-container {
   display: flex;
   align-items: center;
@@ -73,7 +80,7 @@ label {
 }
 
 .breaker {
-  border-top: 1px solid #858585;
+  border-top: 1px solid #8585857f;
   flex: 1;
 }
 
@@ -114,7 +121,8 @@ label {
   left: 20px;
   font-size: 14px;
 }
-.help span {
+.link{
+  text-decoration: none;
   color: #0070e5;
 }
 
